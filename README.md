@@ -173,9 +173,80 @@ This repository contains three simple yet functional web-based applications buil
 
 ---
 
+# assignment 3
+# 🔧 Node.js Command-Line Utilities
+
+This project contains **three mini command-line tools** built using Node.js:
+
+1. 📁 **File Organizer**
+2. 💾 **File Backup System**
+3. 🧠 **Environment Inspector**
+
+Each tool solves a specific filesystem or environment-related problem and runs from the terminal.
+
+---
+
+## 1. 📁 File Organizer
+
+### 🎯 Objective
+Automatically organize files in a given directory into categorized subfolders based on file types (Images, Documents, Videos, Others).
+
+### ✅ Features
+- Scans a target directory
+- Detects common file types by extension
+- Creates folders like `Images/`, `Documents/`, etc.
+- Moves files into the correct subfolder
+- Uses `fs` and `path` modules
+- Includes error handling using `try...catch`
 
 
+### 🚀 Usage
 
+```bash
+node organizer.js <target-folder-path>
+```
+
+## 2.💾 File Backup System 
+
+### 🎯 Objective
+Back up files from a given folder to a backup/ folder, maintaining original structure and optionally compressing into a .zip.
+### ✅ Features
+- Recursively copies all files/folders into backup/
+- Maintains the original folder structure using path
+- Logs all file names, sizes, and timestamps to backup-log.txt
+- Optional: Compress backup folder using --zip flag
+- Uses fs, path, archiver
+- Handles file permission and missing file errors
+
+
+### 🚀 Usage
+
+```bash
+node backup.js <source-folder-path> [--zip]
+```
+
+
+## 3. 🧠 Environment Inspector
+
+### 🎯 Objective
+Inspect and save the current system’s environment details like hostname, home directory, interfaces, and environment variables.
+
+
+### ✅ Features
+- Uses os module to display:
+   - Home directory
+   - Hostname
+   - Network interfaces
+- Uses process.env to get environment variables
+- Writes data to logs/env-details.json
+- Gracefully handles file system errors
+
+### 🚀 Usage
+
+```bash
+node env-inspector.js
+
+```
 
 # assignment4
 
