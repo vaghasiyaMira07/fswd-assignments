@@ -83,6 +83,99 @@ A functional shopping cart that simulates product addition, removal, and price c
 
 ---
 
+# assignment 2
+
+Mini Web Projects 🚀
+
+This repository contains three simple yet functional web-based applications built using **HTML**, **CSS**, and **JavaScript**. These projects are perfect for beginners to understand basic DOM manipulation, event handling, and time-based functionality in JavaScript.
+
+## 🌟 Projects Included:
+
+1. [✅ **Online Appointment Scheduler**](#1-online-appointment-scheduler)
+2. [💰 **Expense Tracker**](#2-expense-tracker)
+3. [📚 **Study Planner**](#3-study-planner)
+
+---
+
+## 1. ✅ Online Appointment Scheduler
+
+### 🔹 Features:
+- Add client appointments with time and service type
+- View appointments scheduled within the next hour
+- Automatically logs a reminder to the console before the appointment
+
+### 🔹 Technologies:
+- HTML5
+- CSS3
+- JavaScript
+
+### 🔹 How It Works:
+- Takes client name, time, and service type.
+- Checks if the appointment is within the next hour and displays it in the “Upcoming Appointments” section.
+- Uses `setTimeout()` to simulate a reminder message.
+
+---
+
+## 2. 💰 Expense Tracker
+
+### 🔹 Features:
+- Add expenses with description, amount, and date
+- Calculates total expenses
+- Filter expenses between two dates
+- Simulates fetching expense report with a `Promise`
+
+### 🔹 Technologies:
+- HTML5
+- CSS3
+- JavaScript
+
+### 🔹 How It Works:
+- Inputs are validated for correctness.
+- Total is dynamically updated.
+- Filters list based on selected date range.
+
+---
+
+## 3. 📚 Study Planner
+
+### 🔹 Features:
+- Add a study session with topic, time, and duration
+- View today's sessions
+- View all added sessions
+
+### 🔹 Technologies:
+- HTML5
+- CSS3
+- JavaScript
+
+### 🔹 How It Works:
+- Sessions are stored in memory.
+- Displays only today’s sessions in one section and all sessions in another.
+- Good for managing daily study routines.
+
+---
+
+## 🛠 How to Run
+
+1. Clone or download this repository.
+2. Open each `.html` file in your browser:
+   - `appointment_scheduler.html`
+   - `expense_tracker.html`
+   - `study_planner.html`
+3. All projects run independently and require no additional setup.
+
+---
+## 💡 Future Improvements
+- Store data using `localStorage` to persist sessions/appointments/expenses
+- Add edit/delete functionality
+- Responsive design improvements
+- Option to export reports
+
+---
+
+
+
+
 
 # assignment4
 
