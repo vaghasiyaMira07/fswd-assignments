@@ -1,3 +1,88 @@
+#assignment4
+Web Application Mini Projects - JavaScript Practical
+
+This project includes three interactive web-based mini applications built using **HTML**, **CSS**, and **Vanilla JavaScript**:
+
+1. **Weather Forecast Tracker**
+2. **Task Management System**
+3. **Online Shopping Cart**
+
+Each mini project demonstrates core JavaScript concepts like array manipulation, DOM updates, event handling, filtering, sorting, and conditional rendering.
+
+---
+
+## 1️⃣ Weather Forecast Tracker
+
+### Description
+This app displays weather information for a list of cities and provides interactive features like:
+- Add new city with random weather
+- Remove cities
+- Sort cities by temperature (hottest first)
+- Filter cities by weather condition (Sunny / Rainy)
+
+### Features
+- Uses JavaScript array methods like `.push()`, `.filter()`, `.sort()`
+- Dynamically renders list using `.map()`
+- Event-driven UI interactions
+- Clean and responsive CSS UI
+
+---
+
+## 2️⃣ Task Management System
+
+### Description
+A simple task manager to keep track of tasks with priority and completion status.
+
+### Features
+- Add new task with random priority
+- Mark task as completed
+- Filter tasks by status: Pending / Completed
+- Sort tasks by priority (ascending)
+- Styled to distinguish between completed and pending tasks
+
+---
+
+## 3️⃣ Online Shopping Cart
+
+### Description
+A functional shopping cart that simulates product addition, removal, and price calculation.
+
+### Features
+- Add new random product with a price
+- Remove product from the cart
+- Calculate total cart value using `.reduce()`
+- Dynamic UI updates using DOM methods
+- Uses `toFixed()` for price formatting
+
+---
+
+## 🔧 How to Run
+
+1. Clone or download this repository.
+2. Open each HTML file (for each mini project) in a modern web browser.
+3. Interact with the buttons to perform actions on each interface.
+
+---
+
+## 💡 Learning Objectives
+
+- DOM Manipulation using JavaScript
+- Working with arrays and JavaScript objects
+- Event handling in web apps
+- Basic UI/UX styling with CSS
+- Functional programming concepts in JS (map, filter, reduce, sort)
+
+---
+
+## 📂 Files
+
+- `weather.html`
+- `card.html`
+- `index.html`
+
+---
+
+
 # assignment4
 
 📦 Order Management System
