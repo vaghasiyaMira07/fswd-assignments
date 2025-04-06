@@ -1,3 +1,4 @@
+# assignment5
 # 📝 Blog Application API
 
 A RESTful API built using **Express** and **MongoDB (Mongoose)** that allows you to manage blog posts and authors. Demonstrates modern best practices such as modular architecture, Mongoose relationships (`ref` and `populate`), data validation, and robust error handling.
@@ -31,6 +32,22 @@ A RESTful API built using **Express** and **MongoDB (Mongoose)** that allows you
 ```bash
 git clone https://github.com/vaghasiyaMira07/fswd-assignments
 ```
+
+📂 Project Structure
+blog-api/
+├── models/
+│   ├── Author.js
+│   └── BlogPost.js
+├── controllers/
+│   ├── authorController.js
+│   └── blogPostController.js
+├── routes/
+│   ├── authorRoutes.js
+│   └── blogPostRoutes.js
+├── app.js
+├── .env
+└── package.json
+
 
 # assignment6
 # 🛍️ Responsive Product Card (React + CSS Modules)
