@@ -1,3 +1,40 @@
+# 📦 Order Management System
+
+A secure and role-based Order Management System API built using **Node.js**, **Express**, **MongoDB**, and **JWT**. This system allows authenticated users to manage orders and includes features such as authentication, logging, centralized error handling, and role-based access control.
+
+---
+
+## 🚀 Features
+
+- ✅ CRUD operations for managing orders
+- 🔐 JWT-based user authentication
+- 🍪 HTTP-only cookie session management
+- 🧾 Request logging to `server.log`
+- ⚠️ Centralized error handling
+- 🛡️ Role-based access control (Admin/User)
+- 💾 MongoDB for database storage
+
+---
+
+## 🛠️ Tech Stack
+
+- **Node.js**
+- **Express.js**
+- **MongoDB** with **Mongoose**
+- **JWT** for Authentication
+- **bcryptjs** for Password Hashing
+- **cookie-parser** for Cookie Management
+- **dotenv** for Environment Variables
+- **fs** for Logging Middleware
+
+---
+
+## 📁 Project Structure
+order-management/ │ ├── controllers/ │ ├── authController.js │ └── orderController.js │ ├── middleware/ │ ├── auth.js │ ├── errorHandler.js │ ├── logger.js │ └── roleCheck.js │ ├── models/ │ ├── Order.js │ └── User.js │ ├── routes/ │ ├── authRoutes.js │ └── orderRoutes.js │ ├── server.js ├── server.log ├── .env └── package.json
+
+
+
+
 # assignment5
 # 📝 Blog Application API
 
