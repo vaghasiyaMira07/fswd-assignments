@@ -1,4 +1,5 @@
 #assignment4
+
 Web Application Mini Projects - JavaScript Practical
 
 This project includes three interactive web-based mini applications built using **HTML**, **CSS**, and **Vanilla JavaScript**:
